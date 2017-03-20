@@ -1,0 +1,442 @@
+
+/* --------------- CLASSES, ETC. FROM INDEX.HTML --------------- */
+
+
+body
+{
+	background-image: url('pics/brooklynbridge2.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+#container
+{
+	position: relative;
+	width: 970px;
+	margin: auto;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.bar
+{
+	display: block;
+	height: 36px;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: -8px;
+}
+
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 970px;
+}
+
+td
+{
+	height: 34px;
+	line-height: 34px;
+	background-color: #815683;
+	color: white;
+	text-align: center;
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+td a
+{
+	display: inline-block;
+	height: 100%;
+  	width: 100%;
+}
+
+td:hover
+{
+	background-color: #682e5b;
+}
+
+.headerLink
+{
+	color: white;
+	text-decoration: none;
+}
+
+.BannerImage1
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.BannerImage2
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.TopImage
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.news
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 29px;
+	font-weight: bold;
+	color: #682e5b;
+	letter-spacing: 1px;
+	margin-top: 40px;
+	margin-bottom: -28px;
+}
+
+.no_underline
+{
+	color: #682e5b;
+	text-decoration: none;
+}
+
+.content
+{
+	display: block;
+	width: 600px;
+	float: left;
+	margin-left: 30px;
+}
+
+#ontop
+{
+	position: absolute;
+	z-index: 1000;
+	margin-left: 200px;
+}
+
+.lowerposition
+{
+	position: relative;
+	z-index: 10;
+}
+
+.line
+{
+	display: block;
+	width: 620px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.date
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+.title
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 27px;
+	color: #682e5b;
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+.description
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+
+.picDescription
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+.contentImage
+{
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+.sidebox
+{
+	display: block;
+	width: 180px;
+	margin-right: 45px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+.sideboxPaypal
+{
+	display: block;
+	text-align: center;
+	width: 180px;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 46px;
+	float: right;
+}
+
+.sideboxTitle
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #682E5B;
+	margin-bottom: 13px;
+	margin-top: 0px;
+}
+
+.sideboxText
+{
+	margin-top: 12px;
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #815683;
+}
+
+.email
+{
+	color: #682E5B;
+}
+
+.email:hover
+{
+	font-weight: bold;
+}
+
+.sidebox2
+{
+	display: block;
+	width: 200px;
+	margin-right: 30px;
+	float: right;
+	text-align: center;
+}
+
+.sideImage
+{
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.copyright
+{
+	display: block;
+	height: 50px;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.copyrightText
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+}
+
+/* --------------- CLASSES FROM OTHER PAGES --------------- */
+
+
+.navigation
+{
+	text-align: center;
+	color: #682E5B;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.navLink
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #682E5B;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.navLink:hover
+{
+	color: #e43140;
+}
+
+.pageTitle
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #682E5B;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+.fiveValues
+{
+	color: #e43140;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.wideContent
+{
+	display: block;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.brotherTitle
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #682E5B;
+	letter-spacing: 1px;
+	margin: 0;
+	text-align:center;
+}
+
+.classOf
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #682E5B;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.bio
+{
+	display: inline-block;
+	width: 170px;
+	margin-bottom: 15px;
+
+}
+
+.bioText
+{
+	margin-top: 10px;
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.youtubeLeft
+{
+	display: inline-block;
+	float: left;
+	margin-bottom: 20px;
+	width: 472px;
+	height: 270px;
+}
+
+.youtubeRight
+{
+	display: inline-block;
+	float: right;
+	margin-bottom: 20px;
+	width: 472px;
+	height: 270px;
+}
+
+.youtubeCenter
+{
+	/* add center tags around div */
+	margin-bottom: 20px;
+}
+
+.youtubeCrest
+{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.contactHeader
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #682e5b;
+}
+
+.contactLeft
+{
+	display: block;
+	width: 390px;
+	float: left;
+	margin-left: 50px;
+}
+
+.contactRight
+{
+	display: block;
+	width: 390px;
+	float: right;
+	margin-right: 50px;
+}
+
+.contactDescription
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.inquiries
+{
+	text-align: center;
+	display: block;
+	float: left;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.moreNews
+{
+	font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+	font-size: 29px;
+	font-weight: bold;
+	color: #682e5b;
+	letter-spacing: 1px;
+	margin-bottom: -28px;
+}
+
+.goBack
+{
+	display: block;
+	width: 180px;
+	margin-left: 60px;
+	margin-top: 37px;
+	float: left;
+}
